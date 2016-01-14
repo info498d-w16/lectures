@@ -81,8 +81,7 @@ Note that apps may not need to use all of these methods: for example, if there i
 Let's look at overriding these methods to see them in action!
 
 We already have `onCreate()` overridden for us, since that's where the layout is specified (we'll cover how soon, I promise!)
-  - Notice it takes a `Bundle` as a parameter. A [`Bundle`](http://developer.android.com/reference/android/os/Bundle.html)
-  is is an object that stores information about the activities state, so that you can restore it when the activity is recreated
+  - Notice it takes a `Bundle` as a parameter. A [`Bundle`](http://developer.android.com/reference/android/os/Bundle.html)   is an object that stores information about the activities state, so that you can restore it when the activity is recreated
     - e.g., if the system destroyed the Activity for memory, it should be restored to previous state when recreated so the user doesn't notice that!
     - It stores current layout information in it by default (if Views have ids), and since its basically a Map (key-value pairs) you can store other data in it as well.
       - called `onSaveInstanceState()` for each View, and those tend to save important bits.
