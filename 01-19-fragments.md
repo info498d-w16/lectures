@@ -6,6 +6,7 @@
   - SunSpotter: how did it go?
   - Next assignment is online, will use topics we talk today (fragments!) and Thursday (databases!)
     - How many people have written an SQL statement before? If few, we can review in lab
+    - Use internal databases or Parse.com? (can adjust assignment...)
 - Fork and clone the repo for today! (Building off the movie example from last week). Walk through it quickly.
   - We can search for films and they show up
   - We can click on the element and log what movie was selected!
